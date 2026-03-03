@@ -39,21 +39,23 @@ function Consultaendereco() {
   }
 
   return (
-    <div className="consulta-cep-container">
-      <h2>Consulta de Endereço por CEP</h2>
-      <input
-        type="text"
-        id="input-cep"
-        placeholder="Digite o CEP"
-        className="input-cep"
-      />
-      <button onClick={BuscaCep} className="btn-consulta">
-        Consultar
-      </button>
-      <p id="status-cep" className="status-cep">
-        Aguardando consulta...
-      </p>
-      <div id="resultado-cep" className="resultado-cep"></div>
+    <div className="card">
+      <div className="consulta-cep-container">
+        <h2>Consulta de Endereço por CEP</h2>
+        <input
+          type="text"
+          id="input-cep"
+          placeholder="Digite o CEP"
+          className="input-cep"
+        />
+        <button onClick={BuscaCep} className="btn-consulta">
+          Consultar
+        </button>
+        <p id="status-cep" className="status-cep">
+          Aguardando consulta...
+        </p>
+        <div id="resultado-cep" className="resultado-cep"></div>
+      </div>
     </div>
   );
 }

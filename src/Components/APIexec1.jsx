@@ -1,5 +1,5 @@
 import React from "react";
-// import "/src/Components/CSS/gato.css";
+import "/src/CSS/Componente1.css";
 
 function APIexec1() {
   function buscarGatinho() {
@@ -32,18 +32,20 @@ function APIexec1() {
   }
 
   return (
-    <div className="api-container">
-      <h2>API Externa: The Cat API</h2>
+    <div className="card">
+      <div className="api-container">
+        <h2>API Externa: The Cat API</h2>
 
-      <button onClick={buscarGatinho} className="btn-gato">
-        Trazer Novo Gatinho
-      </button>
+        <button onClick={buscarGatinho} className="btn-gato">
+          Trazer Novo Gatinho
+        </button>
 
-      <p id="status" className="status">
-        Aguardando comando...
-      </p>
+        <p id="status" className="status">
+          Aguardando comando...
+        </p>
 
-      <img id="foto-gato" alt="Gato" className="imagem-gato" />
+        <img id="foto-gato" alt="Gato" className="imagem-gato" />
+      </div>
     </div>
   );
 }

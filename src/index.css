@@ -29,6 +29,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-image: url("https://focus.telerama.fr/664x442/60/2025/12/24/858947f32d904dc8b39e9cc6bb212a0d.jpg");
+  background-repeat: no-repeat; /*colocar para nao repitir a imagem*/
+  background-size: cover; /*ajustar a imagem para cobrir toda a tela*/
+  background-position: center; /*centralizar a imagem*/
+  
 }
 
 h1 {

@@ -1,0 +1,68 @@
+.raposa-container {
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.65);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.raposa-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: white;
+}
+
+.botoes-raposa {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-raposa {
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background: #111;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-raposa:hover {
+  background: #333;
+  transform: scale(1.07);
+}
+
+.status-raposa {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ddd;
+}
+
+.imagens-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imagem-raposa {
+  max-width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.imagem-raposa:hover {
+  transform: scale(1.05);
+}
